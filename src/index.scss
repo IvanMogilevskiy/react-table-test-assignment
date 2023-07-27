@@ -1,0 +1,13 @@
+$margin-lg: 24px;
+
+.app {
+  padding: 0 $margin-lg;
+}
+
+.margin {
+  &-top {
+    &-lg {
+      margin-top: $margin-lg;
+    }
+  }
+}
